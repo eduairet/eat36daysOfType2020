@@ -65,4 +65,4 @@ for frame in range(frames):
             rotate(startAngle + f * (endAngle - startAngle), (side/2, side/2))
             r()
 
-saveImage("~/Desktop/StackOfSquares.mp4")
+saveImage("~/Desktop/18_36_DAYS_OF_TYPE_2020.mp4")
