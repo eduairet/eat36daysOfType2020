@@ -21,7 +21,7 @@ def drawf(step, thickness, shFill, sFill):
         path.lineTo((mod * 4 - sep, mod * 2 + sep))
         path.lineTo((mod * 4 - sep, mod * 1 + sep))
         path.lineTo((mod * 2 + sep, mod + sep))
-        closePath()
+        path.closePath()
         drawPath(path)
         reps -= 1
         
